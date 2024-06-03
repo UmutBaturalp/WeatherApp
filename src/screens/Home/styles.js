@@ -84,4 +84,16 @@ export default styles = StyleSheet.create({
     fontSize: windowWidth * 0.035,
     fontWeight: '500',
   },
+
+  citySelect: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    columnGap: windowWidth * 0.023,
+  },
+  downArrow: {
+    fontSize: windowWidth * 0.05,
+    color: 'white',
+    fontWeight: 'bold',
+  },
 });

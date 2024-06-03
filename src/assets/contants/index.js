@@ -1,3 +1,3 @@
 import dummyData from './dummyData';
-
-export {dummyData};
+import cities from './cities';
+export {dummyData, cities};
